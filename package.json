@@ -1,0 +1,41 @@
+{
+  "name": "mgt-pc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve --port=80 --host 0.0.0.0",
+    "build-kdj": "vue-cli-service build --mode kdj",
+    "build-yjk": "vue-cli-service build --mode yjk",
+    "build-cxz": "vue-cli-service build --mode cxz",
+    "build-all": "npm run build-kdj && npm run build-yjk && npm run build-cxz"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "el-form-validator": "^1.0.7",
+    "element-china-area-data": "^4.1.1",
+    "element-ui": "^2.9.1",
+    "js-base64": "^2.5.1",
+    "qrcode.vue": "^1.6.1",
+    "qs": "latest",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-extend-module": "^1.1.2",
+    "quill-image-resize-module": "^3.0.0",
+    "vue": "^2.6.10",
+    "vue-cropper": "^0.4.9",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuedraggable": "^2.21.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-service": "^3.5.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "fibers": "^3.1.1",
+    "sass": "^1.16.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6"
+  }
+}

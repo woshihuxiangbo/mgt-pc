@@ -1,0 +1,13 @@
+{
+    "main": "index.html",
+    "name": "SAAS平台",
+    "window": {
+        "title": "SAAS平台",
+        "icon": "favicon.png",
+        "width": 800,
+        "height": 500
+    },
+    "webkit": {
+        "plugin": true
+    }
+}
